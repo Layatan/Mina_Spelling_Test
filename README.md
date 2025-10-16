@@ -11,17 +11,20 @@ sudo apt install mpg123
 ```
 Then go to your preferred install folder and:
 ```
-https://github.com/Layatan/Mina_Spelling_Test && cd Mina_Spelling_Test
+git clone https://github.com/Layatan/Mina_Spelling_Test && cd Mina_Spelling_Test
 chmod +x spelling.sh
 ```
 [optional] For adults use a more mature wordlist:
-
-`curl https://raw.githubusercontent.com/dwyl/english-words/refs/heads/master/words_alpha.txt -o wordlist.txt`
-
+```
+curl https://raw.githubusercontent.com/dwyl/english-words/refs/heads/master/words_alpha.txt -o wordlist.txt
+```
 To play just run it:
-
-`./spelling.sh`
-
+```
+./spelling.sh
+```
 or view the help page:
+```
+./spelling.sh --help
+```
 
-`./spelling.sh --help`
+Of course feel free to configure for your usecase or whatever.... open source
